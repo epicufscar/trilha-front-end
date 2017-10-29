@@ -2,108 +2,144 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>Referência do Curso de HTML</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Trabalhando HTML, CSS e JS">
+		<meta name="keywords" content="HTML, CSS, JS">
+		<meta name="author" content="Alisson Nunes e Vitor Gallera">
+
+		<title>Bem vindos à trilha de Desenvolvimento Front-End!!</title>
 	</head>
-	<body>
-		<!-- Você pode fazer comentários -->
+	<body id="body">
 		<header>
-			<h1>Lorem Ipsum</h1>
+			<a href="http://epic-ufscar.org/home/"><img src="http://epic-ufscar.org/static/images/logo_epic.png"></a>
+			<h1>Desenvolvimento Front-End</h1>
 		</header>
-		<nav>
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">Sobre</a></li>
-				<li><a href="#">Ajuda</a></li>
-			</ul>
-		</nav>
 		<main>
-			<dialog open>HTML!</dialog>
-			<p><strong>Lorem ipsum</strong> dolor sit amet, consectetur adipiscing elit. Integer vel risus sit amet ligula aliquam bibendum. Aenean lacus <i>lectus</i>, mattis quis lectus ultrices, gravida laoreet enim. Pellentesque <em>ac</em> neque lorem. Suspendisse ac aliquet leo, in pretium orci. Mauris blandit <b>orci</b> facilisis pretium blandit. Ut euismod metus eu ipsum varius, vitae bibendum lacus pulvinar. Nam non enim ut sem pharetra vestibulum.</p>
-			<details>
-				<summary>Continua...</summary>
-				<section>
-					<h2>Listas</h2>
-					<h3>Lista não numerada</h3>
+			<nav>
+				<ul>
+					<li><a target="_blank" href="http://epic-ufscar.org/sobre/">Sobre a EPiC</a></li>
+					<li><a target="_blank" href="http://epic-ufscar.org/cursos/">Cursos</a></li>
+					<li><a target="_blank" href="http://epic-ufscar.org/apoio/">Apoio</a></li>
+				</ul>
+			</nav>
+			<aside>
+				<nav>
 					<ul>
-						<li>Item 1</li>
-						<li>Item 2</li>
-						<li>Item 3</li>
+						<li><a href="#body"><b>Índice</b></a></li>
+						<li><a href="#html">HTML</a></li>
+						<li><a href="#css">CSS</a></li>
+						<li><a href="#js">JS</a></li>
 					</ul>
-					<h3>Lista numerada</h3>
-					<ol>
-						<li>Item 1</li>
-						<li>Item 2</li>
-						<li>Item 3</li>
-					</ol>
-				</section>
-				<section>
-					<h2>Tabelas</h2>
-					<table>
-						<thead>
-							<tr>
-								<th>Mês</th>
-								<th>Resultado</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>Janeiro</td>
-								<td>Concluído</td>
-							</tr>
-							<tr>
-								<td>Fevereiro</td>
-								<td>Concluído</td>
-							</tr>
-							<tr>
-								<td>Março</td>
-								<td>Pendente</td>
-							</tr>
-						</tbody>
-					</table>
-				</section>
-				<section>
-					<h2>Media</h2>
-					<a href="#">Link</a>
-					<br>
-					<img src="http://epic-ufscar.org/static/images/logo_epic.png" alt="">
-					<br>
-					<img src="" alt="Erro ao carregar a imagem">
-					<br>
-					<audio controls>
-						<source src="https://www.w3schools.com/tags/horse.ogg" type="audio/ogg">
-						<source src="https://www.w3schools.com/tags/horse.mp3" type="audio/mpeg">
-						Seu navegador não suporta o elemento de áudio.
-					</audio>
-					<br>
-					<video width="320" height="240" controls>
-						<source src="https://www.w3schools.com/tags/movie.mp4" type="video/mp4">
-						<source src="https://www.w3schools.com/tags/movie.ogg" type="video/ogg">
-						Seu navegador não suporta o elemento de vídeo.
-					</video>
-					<br>
-					<embed src="https://www.w3schools.com/tags/helloworld.swf">
-				</section>
-				<section>
-					<h2>Outros</h2>
-					<div>Elemento genérico</div>
-					<h3>iframe</h3>
-					<iframe src="https://www.w3schools.com"></iframe>
-					<h3>Formulário</h3>
-					<form action="" method="get">
-						Nome: <input type="text">
-						<input type="submit">
-					</form>
-				</section>
-			</details>
+				</nav>
+			</aside>
+			<section>
+				<dialog open>HTML!</dialog>
+				<h3 id="html">HTML - Principais elementos</h3>
+				<details>
+					<summary>História</summary>
+					<p>HTML (abreviação para a expressão inglesa HyperText Markup Language, que significa Linguagem de Marcação de Hipertexto) é uma <strong>linguagem de marcação</strong> utilizada na construção de páginas na Web a serem interpretadas por navegadores. Foi criada originalmente por Tim Berners-Lee (que também criou outros protocolos associados como o HTTP) em meados de 1990 como uma ferramente para solucionar o problema da comunicação e disseminação das pesquisas entre ele e seus colegas.</p>
+					<p>Nos dias de hoje a linguagem é mantida pela W3C (World Wide Web Consortium) e chegou à sua versão quinta no ano de 2014.</p>
+				</details>
+				<h4>Listas</h4>
+				<p>Para criarmos listas não ordenadas utilizamos a etiqueta <code>&lt;ul&gt;&lt;/ul&gt;</code>, já para listas ordenadas utilizamos a etiqueta <code>&lt;ol&gt;&lt;/ol&gt;</code>.</p>
+				<ul>
+					<li>Item 1</li>
+					<li>Item 2</li>
+					<li>Item 3</li>
+				</ul>
+				<ol>
+					<li>Item 1</li>
+					<li>Item 2</li>
+					<li>Item 3</li>
+				</ol>
+				<h4>Tabelas</h4>
+				<p>Tabelas de dados são criadas com a etiqueta <code>&lt;table&gt;&lt;/table&gt;</code>, e podemos dividir o cabeçalho do corpo em si, usando as etiquetas <code>&lt;thead&gt;&lt;thead&gt;</code> e <code>&lt;tbody&gt;&lt;tbody&gt;</code>. Porém a partir daí precisamos ter a visão de linhas e colunas, pois primeiro precisamos criar uma linha, utilizando a etiqueta <code>&lt;tr&gt;&lt;tr&gt;</code>, para só então criar as células de coluna, utilizando a etiqueta <code>&lt;td&gt;&lt;td&gt;</code> (ou a etiqueta <code>&lt;th&gt;&lt;th&gt;</code> para o cabeçalho).</p>
+				<table>
+					<thead>
+						<tr>
+							<th>Mês</th>
+							<th>Resultado</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Janeiro</td>
+							<td>Concluído</td>
+						</tr>
+						<tr>
+							<td>Fevereiro</td>
+							<td>Concluído</td>
+						</tr>
+						<tr>
+							<td>Março</td>
+							<td>Pendente</td>
+						</tr>
+					</tbody>
+				</table>
+				<h4>Mídias</h4>
+				<p>Podemos criar elementos de áudio e vídeo, com reprodutor nativo do navegador, usando a etiqueta <code>&lt;audio&gt;&lt;audio&gt;</code>, <code>&lt;video&gt;&lt;video&gt;</code> e a sub etiqueta <code>&lt;source&gt;&lt;source&gt;</code>.</p>
+				<audio controls>
+					<source src="https://www.w3schools.com/tags/horse.ogg" type="audio/ogg">
+					<source src="https://www.w3schools.com/tags/horse.mp3" type="audio/mpeg">
+					Seu navegador não suporta o elemento de áudio.
+				</audio>
+				<br>
+				<video width="320" height="240" controls>
+					<source src="https://www.w3schools.com/tags/movie.mp4" type="video/mp4">
+					<source src="https://www.w3schools.com/tags/movie.ogg" type="video/ogg">
+					Seu navegador não suporta o elemento de vídeo.
+				</video>
+				<p>Para aplicações ou animações em Flash, é necessário adicionar a etiqueta <code>&lt;embed&gt;&lt;embed&gt;</code>.</p>
+				<embed src="https://www.w3schools.com/tags/helloworld.swf" />
+				<h4>Formulários</h4>
+				<p>Existe uma vasta gama de elementos de entrada de dados, contudo é necessário se atentar à compatibilidade entre navegadores. Aqui temos as etiquetas <code>&lt;form&gt;&lt;/form&gt;</code>, <code>&lt;fieldset&gt;&lt;/fieldset&gt;</code> (com <code>&lt;legend&gt;&lt;/legend&gt;</code>), <code>&lt;label&gt;&lt;/label&gt;</code>, <code>&lt;input /&gt;</code> (dos tipos <code>text</code>, <code>number</code>, <code>date</code>, <code>password</code>, <code>submit</code>), <code>&lt;select&gt;&lt;/select&gt;</code> (com <code>&lt;option&gt;&lt;/option&gt;</code> e <code>&lt;optgroup&gt;&lt;/optgroup&gt;</code>) e <code>&lt;textarea&gt;&lt;/textarea&gt;</code>. Ufa!</p>
+				<form action="#" method="get">
+					<fieldset>
+						<legend>Formulário de teste</legend>
+						<label>Nome: <input type="text" name="name" /></label><br>
+						<label>Idade: <input type="number" name="age" min="18" /></label><br>
+						<label>Data de nascimento: <input type="date" name="date" /></label><br>
+						<label>Senha: <input type="password" name="pass" /></label><br>
+						<select>
+							<option disabled selected>Curso</option>
+							<optgroup label="UFSCar">
+								<option value="ufscar-bcc">BCC</option>
+								<option value="ufscar-enc">ENC</option>
+							</optgroup>
+							<optgroup label="USP">
+								<option value="usp-bcc">BCC</option>
+								<option value="usp-enc">ENC</option>
+							</optgroup>
+							<optgroup label="UNICAMP">
+								<option value="unicamp-bcc">BCC</option>
+								<option value="unicamp-enc">ENC</option>
+							</optgroup>
+						</select><br>
+						<textarea placeholder="Dissertação"></textarea><br>
+
+						<input type="submit" />
+					</fieldset>
+				</form>
+			</section>
+			<section>
+				<h3 id="css">CSS - Em produção</h3>
+			</section>
+			<section>
+				<h3 id="js">JS - Em produção</h3>
+			</section>
 		</main>
-		<aside>
-			<h3>Conteúdo lateral</h3>
-			<p>Pode ser posicionado lateralmente através do CSS.</p>
-		</aside>
 		<footer>
 			<h3>Rodabé</h3>
-			<p>O rodapé também é estilizado via CSS, mudando a cor do fundo, posicionamento e etc.</p>
+			<div>
+				<b>Escola Piloto de Computação - EPiC UFSCar</b><br>
+				Universidade Federal de São Carlos<br>
+				Departamento de Computação<br>
+			</div>
+			<div>
+				<a href="http://www.dc.ufscar.br/" target="_blank"><img class="logo" src="http://epic-ufscar.org/static/images/footer/dc_white.png"></a>
+				<a href="http://www.ufscar.br/" target="_blank"><img class="logo" src="http://epic-ufscar.org/static/images/footer/ufscar_white.png"></a>
+				<a href="http://www.sancahub.org/" target="_blank"><img class="logo" src="http://epic-ufscar.org/static/images/footer/sancahub_white.png"></a>
+			</div>
 		</footer>
 	</body>
 </html>
