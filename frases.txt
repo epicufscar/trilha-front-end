@@ -1,0 +1,147 @@
+Bem vindos à trilha de Desenvolvimento Front-End!!
+
+Desenvolvimento Front-End
+
+http://epic-ufscar.org/sobre/
+
+Sobre a EPiC
+
+http://epic-ufscar.org/cursos/
+
+Cursos
+
+http://epic-ufscar.org/apoio/
+
+Apoio
+
+body
+
+Índice
+
+html
+
+HTML
+
+css
+
+CSS
+
+js
+
+JS
+
+html
+
+HTML - Principais elementos
+
+Listas
+
+Para criarmos listas não ordenadas utilizamos a etiqueta &lt;ul&gt;&lt;/ul&gt;, já para listas ordenadas utilizamos a etiqueta &lt;ol&gt;&lt;/ol&gt;.
+
+Item 1
+
+Item 2
+
+Item 3
+
+Tabelas
+
+Tabelas de dados são criadas com a etiqueta &lt;table&gt;&lt;/table&gt;, e podemos dividir o cabeçalho do corpo em si, usando as etiquetas &lt;thead&gt;&lt;thead&gt; e &lt;tbody&gt;&lt;tbody&gt;. Porém a partir daí precisamos ter a visão de linhas e colunas, pois primeiro precisamos criar uma linha, utilizando a etiqueta &lt;tr&gt;&lt;tr&gt;, para só então criar as células de coluna, utilizando a etiqueta &lt;td&gt;&lt;td&gt; (ou a etiqueta &lt;th&gt;&lt;th&gt; para o cabeçalho).
+
+Mês
+
+Resultado
+
+Janeiro
+
+Concluído
+
+Fevereiro
+
+Concluído
+
+Março
+
+Pendente
+
+Mídias
+
+Podemos criar elementos de áudio e vídeo, com reprodutor nativo do navegador, usando a etiqueta &lt;audio&gt;&lt;audio&gt;, &lt;video&gt;&lt;video&gt; e a sub etiqueta &lt;source&gt;&lt;source&gt;.
+
+https://www.w3schools.com/tags/horse.mp3
+
+Seu navegador não suporta o elemento de áudio.
+
+https://www.w3schools.com/tags/movie.mp4
+
+Seu navegador não suporta o elemento de vídeo.
+
+Gráficos
+
+Para aplicações ou animações em Flash, é necessário adicionar a etiqueta &lt;embed&gt;&lt;embed&gt;.
+
+https://www.w3schools.com/tags/helloworld.swf
+
+Formulários
+
+Existe uma vasta gama de elementos envolvendo a entrada de dados, contudo é necessário se atentar à compatibilidade entre navegadores. Aqui temos as etiquetas &lt;form&gt;&lt;/form&gt;, &lt;fieldset&gt;&lt;/fieldset&gt; (com &lt;legend&gt;&lt;/legend&gt;), &lt;label&gt;&lt;/label&gt;, &lt;input /&gt; (dos tipos text, number, date, password e submit), &lt;select&gt;&lt;/select&gt; (com &lt;option&gt;&lt;/option&gt; e &lt;optgroup&gt;&lt;/optgroup&gt;) e &lt;textarea&gt;&lt;/textarea&gt;. Ufa!
+
+Formulário de teste
+
+Nome: 
+
+Idade: 
+
+Data de nascimento: 
+
+Senha: 
+
+Curso
+
+UFSCar
+
+ufscar-bcc
+
+BCC
+
+ufscar-enc
+
+ENC
+
+USP
+
+usp-bcc
+
+BCC
+
+usp-enc
+
+ENC
+
+UNICAMP
+
+unicamp-bcc
+
+BCC
+
+unicamp-enc
+
+ENC
+
+Dissertação
+
+css
+
+CSS - Em produção
+
+js
+
+JS - Em produção
+
+Rodapé
+
+Escola Piloto de Computação - EPiC UFSCar
+
+Universidade Federal de São Carlos
+
+Departamento de Computação
