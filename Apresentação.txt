@@ -1,0 +1,13 @@
+Descrição
+Monte uma página HTML do seu jeito com o tema de Halloween! Você pode fazer o tipo de página que quiser! Tente usar todos os elementos que aprendeu neste workshop!
+
+Critérios
+- Criatividade
+- Elementos HTML
+- Código
+
+Premiação
+ 1º:	30 Dadinhos + 15 7Belo
+ 2º:	20 Dadinhos + 10 7Belo
+ 3º:	30 Dadinhos + 05 7Belo
+...:	02 Dadinhos + 01 7Belo
