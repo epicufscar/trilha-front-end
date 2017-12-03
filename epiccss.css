@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  margin-top: 0px;
+}
+header{
+	width: -webkit-fill-available;
+	background-color: #333;
+	display: block;
+	position: fixed;
+	top: 0px;
+	z-index: 10;
+
+}
+#imagem_logo{
+	width: 200px;
+	float: left;
+}
+
+#titulo_site{
+text-align: left;
+padding-left: 500px;
+color: white;
+}
+
+#ul-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.li-menu {
+    float: left;
+}
+
+.li-menu a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.li-menu  a:hover {
+    background-color: #111;
+}
+
+#html_section{
+	margin-top: 130px;
+}
+
+.titulo{
+	text-align: center;
+	padding-top: 30px;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+}
+.column.fifty {
+    width: 50%;
+}
+.column.twenty{
+	width: 20%;
+}
+.column.fourty{
+	width: 40%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+/*espaço entre midia e tabela*/
+.espaco{
+	margin-top: 30px;
+}
+video{
+	z-index: -1;
+}
+
+

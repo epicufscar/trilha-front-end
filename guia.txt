@@ -1,0 +1,5 @@
+Criar o arquivo css
+Colocar o link do css
+mudar o background do body para mostar lightblue,red,rgb,hex
+mudar uma div tmb
+

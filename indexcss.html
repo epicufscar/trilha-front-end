@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="epiccss.css">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Bem vindos à trilha de Desenvolvimento Front-End!!</title>
+	</head>
+	<body id="body">
+		<header>
+			<img id="imagem_logo" src="http://epic-ufscar.org/static/images/logo_epic.png">
+			<h1 id="titulo_site">Desenvolvimento Front-End</h1>
+			<nav>
+				<ul id="ul-menu">
+					<li class="li-menu">
+						<a target="_blank" href="http://epic-ufscar.org/sobre/">Sobre a EPiC</a>
+					</li>
+					<li class="li-menu">
+						<a target="_blank" href="http://epic-ufscar.org/cursos/">Cursos</a>
+					</li>
+					<li class="li-menu">
+						<a target="_blank" href="http://epic-ufscar.org/apoio/">Apoio</a>
+					</li>
+					<li class="li-menu">
+						<a href="#body">
+							<b>Índice</b>
+						</a>
+					</li>
+					<li class="li-menu">
+						<a href="#html">HTML</a>
+					</li>
+					<li class="li-menu">
+						<a href="#css">CSS</a>
+					</li>
+					<li class="li-menu">
+						<a href="#js">JS</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<section id="html_section">
+				<h1 class="titulo">HTML - Principais elementos</h1>
+
+				<div class="row">
+					<div class="column twenty">
+						<h3>Listas</h3>
+						<p>Para criarmos listas não ordenadas utilizamos a etiqueta <code>&lt;ul&gt;&lt;/ul&gt;</code>, já para listas ordenadas utilizamos a etiqueta <code>&lt;ol&gt;&lt;/ol&gt;</code>.</p>
+					</div>
+					<div class="column twenty">
+						<h4>Lista Ordenada</h4>
+						<ul id="lista-ordenada">
+							<li>Item 1</li>
+							<li>Item 2</li>
+							<li>Item 3</li>
+						</ul>
+					</div>
+					<div class="column twenty">
+						<h4>Lista Não Ordenada</h4>
+						<ol>
+							<li>Item 1</li>
+							<li>Item 2</li>
+							<li>Item 3</li>
+						</ol>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="titulo">
+						<h3>Tabelas</h3>
+						<p>Tabelas de dados são criadas com a etiqueta <code>&lt;table&gt;&lt;/table&gt;</code>, e podemos dividir o cabeçalho do corpo em si, usando as etiquetas <code>&lt;thead&gt;&lt;thead&gt;</code> e <code>&lt;tbody&gt;&lt;tbody&gt;</code>. Porém a partir daí precisamos ter a visão de linhas e colunas, pois primeiro precisamos criar uma linha, utilizando a etiqueta <code>&lt;tr&gt;&lt;tr&gt;</code>, para só então criar as células de coluna, utilizando a etiqueta <code>&lt;td&gt;&lt;td&gt;</code> (ou a etiqueta <code>&lt;th&gt;&lt;th&gt;</code> para o cabeçalho).</p>
+					</div>
+						<table>
+							<tr>
+							    <th>Firstname</th>
+							    <th>Lastname</th> 
+							    <th>Age</th>
+						  	</tr>
+						  	<tr>
+							    <td>Jill</td>
+							    <td>Smith</td> 
+							    <td>50</td>
+						  	</tr>
+							<tr>
+								<td>Eve</td>
+								<td>Jackson</td> 
+								<td>94</td>
+							</tr>
+						</table>
+					</div>
+				
+				
+				<div class="row espaco">
+					<div class="column fourty">
+						<h3>Mídias</h3>
+						<p>Podemos criar elementos de áudio e vídeo, com reprodutor nativo do navegador, usando a etiqueta <code>&lt;audio&gt;&lt;audio&gt;</code>, <code>&lt;video&gt;&lt;video&gt;</code> e a sub etiqueta <code>&lt;source&gt;&lt;source&gt;</code>.</p>
+						<audio controls>
+							<source src="https://www.w3schools.com/tags/horse.ogg" type="audio/ogg">
+							<!-- <source src="https://www.w3schools.com/tags/horse.mp3" type="audio/mpeg"> -->
+							Seu navegador não suporta o elemento de áudio.
+						</audio>
+					</div>
+					<div class="column fourty">
+						<video width="320" height="240" controls>
+							<source src="https://www.w3schools.com/tags/movie.mp4" type="video/mp4">
+							<!-- <source src="https://www.w3schools.com/tags/movie.ogg" type="video/ogg"> -->
+							Seu navegador não suporta o elemento de vídeo.
+						</video>
+					</div>
+				</div>
+				
+				<h4>Gráficos</h4>
+				<p>Para aplicações ou animações em Flash, é necessário adicionar a etiqueta <code>&lt;embed&gt;&lt;embed&gt;</code>.</p>
+				<embed src="https://www.w3schools.com/tags/helloworld.swf" />
+
+				<h4>Formulários</h4>
+				<p>Existe uma vasta gama de elementos envolvendo a entrada de dados, contudo é necessário se atentar à compatibilidade entre navegadores. Aqui temos as etiquetas <code>&lt;form&gt;&lt;/form&gt;</code>, <code>&lt;fieldset&gt;&lt;/fieldset&gt;</code> (com <code>&lt;legend&gt;&lt;/legend&gt;</code>), <code>&lt;label&gt;&lt;/label&gt;</code>, <code>&lt;input /&gt;</code> (dos tipos <code>text</code>, <code>number</code>, <code>date</code>, <code>password</code> e <code>submit</code>), <code>&lt;select&gt;&lt;/select&gt;</code> (com <code>&lt;option&gt;&lt;/option&gt;</code> e <code>&lt;optgroup&gt;&lt;/optgroup&gt;</code>) e <code>&lt;textarea&gt;&lt;/textarea&gt;</code>. Ufa!</p>
+				<form action="#" method="get">
+					<fieldset>
+						<legend>Formulário de teste</legend>
+						<label>Nome: <input type="text" name="name" /></label><br>
+						<label>Idade: <input type="number" name="age" min="18" /></label><br>
+						<label>Data de nascimento: <input type="date" name="date" /></label><br>
+						<label>Senha: <input type="password" name="pass" /></label><br>
+						<select>
+							<option disabled selected>Curso</option>
+							<optgroup label="UFSCar">
+								<option value="ufscar-bcc">BCC</option>
+								<option value="ufscar-enc">ENC</option>
+							</optgroup>
+							<optgroup label="USP">
+								<option value="usp-bcc">BCC</option>
+								<option value="usp-enc">ENC</option>
+							</optgroup>
+							<optgroup label="UNICAMP">
+								<option value="unicamp-bcc">BCC</option>
+								<option value="unicamp-enc">ENC</option>
+							</optgroup>
+						</select><br>
+						<textarea placeholder="Dissertação"></textarea><br>
+
+						<input type="submit" />
+					</fieldset>
+				</form>
+			</section>
+			<section>
+				<h3 id="css">CSS</h3>
+			</section>
+			<section>
+				<h3 id="js">JS</h3>
+			</section>
+		</main>
+		<footer>
+			<h3>Rodapé</h3>
+			<div>
+				<b>Escola Piloto de Computação - EPiC UFSCar</b><br>
+				Universidade Federal de São Carlos<br>
+				Departamento de Computação<br>
+			</div>
+		</footer>
+	</body>
+</html>
